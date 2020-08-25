@@ -25,6 +25,7 @@ function App() {
     <div className={classes.logoContainer}>
       <img src="https://alan.app/voice/images/previews/preview.jpg" alt="Alan Logo" className={classes.alanLogo}/>      
     </div>
+       <h1>Tap The Right Buttom little icon and Say 'What can i do here ?' to know what it is actually app do </h1>
       <NewsCards articles={NewsArticles} activeArticle={activeArticle}/>
     </div>
   );
